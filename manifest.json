@@ -1,0 +1,20 @@
+{
+
+  "manifest_version": 2,
+  "name": "tg2yobit",
+  "version": "1.0",
+
+  "description": "WebExtension for parsing, modifying and using YOBIT codes from Telegram channels.",
+
+  "icons": {
+    "48": "icons/border-48.png"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["https://yobit.net/en/yobicodes/"],
+      "js": ["insertCode.js"]
+    }
+  ]
+
+}
