@@ -7,3 +7,6 @@ let openModal = document.querySelector('.activateYobicode'),
         codeInput.value = code;
         console.log(codeInput);
     }
+
+
+
